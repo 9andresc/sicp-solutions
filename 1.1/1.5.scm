@@ -12,4 +12,4 @@
 ;Behaviour with normal-order evaluation: evaluation of arguments
 ;will be postoned until they are needed. The arguments of test will
 ;be passed unevaluated to the procedure body. It returns 0 because
-;of the if condition (= 0 0) and (p) never gets evaluated.
+;of the predicate (= 0 0) and (p) never gets evaluated.
