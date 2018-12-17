@@ -21,7 +21,7 @@
 
 (define (good-enough? guess oldguess)
   (< (abs (- guess oldguess))
-     (* guess 0.001)))
+     (abs (* guess 0.001))))
 
 (define (average x y)
   (/ (+ x y) 2))
